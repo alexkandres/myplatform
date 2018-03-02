@@ -1,0 +1,8 @@
+- name: "Installing Vim"
+  apt: pkg=vim state=installed
+
+- name: "Installing DNS utils"
+  apt: pkg=dnsutils state=installed
+
+- name: "Intsalling Git"
+  apt: pkg=git state=installed
